@@ -1,0 +1,38 @@
+# Publishes your site to GitHub Pages every time you push to main.
+# You do not need to edit this file. Just push, and your site goes live.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never cancel an in-progress deploy: cancelling can leave a "success" that
+# never actually propagates to the CDN.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload the whole site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

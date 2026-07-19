@@ -34,7 +34,7 @@ until you make one of the seeds your own.
 
 1. In your repo on GitHub: **Settings -> Pages**, set **Source** to
    **GitHub Actions**. You only do this once.
-2. Commit and push (or use the Source Control panel in VS Code).
+2. Publish it: tell the agent **commit and push my changes** (or use the Source Control panel in VS Code).
 3. The **Deploy to GitHub Pages** action runs. When it finishes, your site is live.
    Find the URL under **Settings -> Pages** or on the finished action.
 

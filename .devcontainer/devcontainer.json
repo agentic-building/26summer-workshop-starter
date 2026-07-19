@@ -10,7 +10,8 @@
       ],
       "settings": {
         "workbench.startupEditor": "readme",
-        "livePreview.defaultPreviewPath": "/index.html"
+        "livePreview.defaultPreviewPath": "/index.html",
+        "livePreview.openPreviewTarget": "External Browser"
       }
     }
   },

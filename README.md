@@ -43,8 +43,10 @@ in this repo automatically.
 
 ## Preview while you build
 
-Right-click `index.html` and choose **Show Preview** (the Live Preview extension is
-already installed), or open it in the browser preview. It reloads as the agent edits.
+Right-click a file (like `index.html` or a seed in `seeds/`) and choose
+**Show Preview**. Your page opens in a **new browser tab** and reloads as the agent
+edits. (In a Codespace, use the browser tab, not the small in-editor pane.) You can
+also open any preview from the **Ports** tab at the bottom of VS Code.
 
 ---
 

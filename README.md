@@ -60,6 +60,10 @@ When a student asks you to build their product, follow these rules:
 - **Keep it to a single self-contained file.** Inline the CSS and JavaScript in
   `index.html`. Do not add build tools, frameworks, npm packages, or a server. This
   is a static site on GitHub Pages.
+- **Do not create new folders.** The student's product is `index.html` at the repo
+  root. Leave `seeds/` untouched so the other starters still work as references. If
+  the student later wants extra pages, put them next to `index.html` (for example
+  `about.html`) and link with relative paths.
 - **Use relative paths only.** Never start a `src`, `href`, or `fetch` path with a
   leading `/`. The site may be served from a subpath, so `seeds/quiz.html` is
   correct and `/seeds/quiz.html` is not.

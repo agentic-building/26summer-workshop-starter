@@ -23,7 +23,7 @@ until you make one of the seeds your own.
 1. In VS Code, open the **Chat** panel and switch the dropdown to **Agent**.
 2. Give it one sentence. Name the seed you picked and the real thing you want:
    > **Example.** Start from the tracker seed and turn `index.html` into a tracker for
-   > our club fundraiser that shows how close we are to our goal. Keep it to one file.
+   > our club fundraiser that shows how close we are to our goal. Keep it to one file for now.
 3. **Read what it changed.** Which file did it touch? What did it add?
 4. Run it in the preview. If something is broken, that is normal. Tell the agent:
    **READ** the problem out loud, help it **FIND** where it is, **ASK** it to fix
@@ -57,8 +57,9 @@ When a student asks you to build their product, follow these rules:
 - **The published site is `index.html`.** To make a chosen seed the student's
   product, put the working result in `index.html`. You may copy from a file in
   `seeds/` as your starting point.
-- **Keep it to a single self-contained file.** Inline the CSS and JavaScript in
-  `index.html`. Do not add build tools, frameworks, npm packages, or a server. This
+- **Keep it to a single self-contained file for now.** Inline the CSS and JavaScript
+  in `index.html`. One file is easiest to steer in a 90 minute session; the student can
+  split it up later. Do not add build tools, frameworks, npm packages, or a server. This
   is a static site on GitHub Pages.
 - **Do not create new folders.** The student's product is `index.html` at the repo
   root. Leave `seeds/` untouched so the other starters still work as references. If

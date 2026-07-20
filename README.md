@@ -22,8 +22,8 @@ until you make one of the seeds your own.
 
 1. In VS Code, open the **Chat** panel and switch the dropdown to **Agent**.
 2. Give it one sentence. Name the seed you picked and the real thing you want:
-   > Start from the tracker seed and turn `index.html` into a tracker for our club
-   > fundraiser that shows how close we are to our goal. Keep it to one file.
+   > **Example.** Start from the tracker seed and turn `index.html` into a tracker for
+   > our club fundraiser that shows how close we are to our goal. Keep it to one file.
 3. **Read what it changed.** Which file did it touch? What did it add?
 4. Run it in the preview. If something is broken, that is normal. Tell the agent:
    **READ** the problem out loud, help it **FIND** where it is, **ASK** it to fix

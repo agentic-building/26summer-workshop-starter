@@ -1,4 +1,4 @@
-# Build Something Real
+# Agentic Coding for Building Product
 
 This is your starter. By the end of the workshop you will turn it into a small,
 working web product that lives at your own public URL and that a real person can use.

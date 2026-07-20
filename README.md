@@ -12,7 +12,7 @@ Open each one in the preview to see what it does, then pick the closest to your 
 | File | What it is | Turn it into |
 |---|---|---|
 | `seeds/tracker.html` | A list you add to and check off | Habit tracker, homework list, water log, workout log |
-| `seeds/quiz.html` | Answer questions, get a result | "Which ___ are you?", a study quiz, a decision helper |
+| `seeds/quiz.html` | Answer questions, get a result | A decision helper, a study quiz, a recommender |
 | `seeds/gallery.html` | A wall of cards you add to | Photo wall, recommendations, a team, an event board |
 
 `index.html` is a welcome page that links to all three. That is what publishes
@@ -22,8 +22,8 @@ until you make one of the seeds your own.
 
 1. In VS Code, open the **Chat** panel and switch the dropdown to **Agent**.
 2. Give it one sentence. Name the seed you picked and the real thing you want:
-   > Start from the quiz seed and turn `index.html` into a quiz that tells my
-   > friends which taco they are. Keep it to one file.
+   > Start from the tracker seed and turn `index.html` into a tracker for our club
+   > fundraiser that shows how close we are to our goal. Keep it to one file.
 3. **Read what it changed.** Which file did it touch? What did it add?
 4. Run it in the preview. If something is broken, that is normal. Tell the agent:
    **READ** the problem out loud, help it **FIND** where it is, **ASK** it to fix
